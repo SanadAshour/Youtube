@@ -6,6 +6,8 @@ p {
 
 body {
     margin: 0;
+    padding-top: 80px;
+    padding-left: 80px;
 }
 
 .header {
@@ -13,6 +15,23 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(240,240,240);
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: pink;
+    width: 72px;
 }
 
 .left-section {
@@ -159,3 +178,4 @@ body {
     column-gap: 16px;
     row-gap: 40px;
 }
+

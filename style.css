@@ -7,7 +7,9 @@ p {
 body {
     margin: 0;
     padding-top: 80px;
-    padding-left: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(248,248,248);
 }
 
 .header {
@@ -31,8 +33,32 @@ body {
     left: 0;
     bottom: 0;
     top: 55px;
-    background-color: pink;
     width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebar-link {
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235,235,235);
 }
 
 .left-section {
@@ -160,7 +186,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .author,.stats {
@@ -177,12 +203,12 @@ body {
 }
 
 .profile-picture {
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 }
 
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 
